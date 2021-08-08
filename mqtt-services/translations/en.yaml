@@ -1,0 +1,4 @@
+configuration:
+  xbee_device:
+    name: XBee Serial Port
+    description: Serial port where XBee coordinator module lives. The module must be configured for API mode at 115200 bps, odd parity, 1 stop bit.

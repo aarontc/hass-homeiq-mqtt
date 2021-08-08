@@ -1,0 +1,17 @@
+{
+	"name": "HomeIQ MQTT Services",
+	"version": "0.0.3",
+	"slug": "homeiq_mqtt",
+	"description": "HomeIQ MQTT Services",
+	"arch": [ "amd64" ],
+	"startup": "application",
+	"boot": "auto",
+	"services": [ "mqtt:need" ],
+	"uart": true,
+	"options": {
+		"xbee_device": null
+	},
+	"schema": {
+		"xbee_device": "device(subsystem=tty)"
+	}
+}
